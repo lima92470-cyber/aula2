@@ -1,0 +1,53 @@
+body div#principal{
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 4px;
+    box-shadow: 5px 10px 0.5cm blue;
+}
+
+div#banner{
+    border: 1px solid green;
+    height: 200px;
+    width: auto;
+    border-radius: 8px 8px 0px 0px;
+    background-color: green;
+    margin-bottom: 4px;
+}
+
+div#menu{
+    border: 1px solid blue;
+    height: 100px;
+    background-color: blue;
+    margin-bottom: 4px;
+}
+
+div#conteudo{
+    border: 1px solid yellow;
+    height: 700px;
+    background-color: yellow;
+    border-radius: 0px 0px 8px 8px;
+}
+
+div#menu ul{
+    list-style: none;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+div#menu li{
+    display: inline;
+}
+
+a, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: silver;
+}

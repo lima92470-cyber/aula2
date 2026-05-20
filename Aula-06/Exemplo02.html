@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo02</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fcfcfc;
+        }
+        div#topo{
+            background-color: #5e9cfa;
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+        div#menu{
+            background-color: #333;
+            text-align: center;
+            padding: 6px;
+        }
+        div#menu a, a:visited, a:active{
+            color: #fcfcfc;
+            text-decoration: none;
+            padding: 15px;
+            font-weight: bold;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        div#menu a:hover{
+            color: silver;
+            background-color: #666;
+            border-radius: 8px;
+        }
+        div#conteudo{
+            background-color: white;
+            width: 80%;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 6px 10px 0.5cm gray;
+        }
+        .caixa{
+            background-color: #e9ecef;
+            padding: 20px;
+            margin-top: 8px;
+            border-radius: 0px 10px 10px 0px;
+            border-left: 5px solid #3886fa;
+        }
+        #rodape{
+            background-color: #222;
+            color: #f2f2f2;
+            text-align: center;
+            font-size: 15px;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div id="topo">
+        <h1>Segunda página com CSS</h1>
+        <p>Aprendendo a usar div, class e estilos</p>
+    </div>
+    <div id="menu">
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </div>
+    <div id="conteudo">
+        <h2>Introdução a CSS</h2>
+        <div class="caixa">
+            <h3>Exemplos de Caixas com Div</h3>
+            <p>Esta div vai receber cor de fundo, espaçamento interno, margem e etc.</p>
+        </div>
+        <div class="caixa">
+            <h3>Outro exemplo de Div</h3>
+            <p>Esta div vai receber cor de fundo, espaçamento interno, margem e etc.</p>
+        </div>
+    </div>
+    <div id="rodape">
+        <p>Desenvolvido por mim (Alfa)</p>
+    </div>
+</body>
+</html>
